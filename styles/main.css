@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-size: 14px; */
+    font-size: 14px;
+    box-sizing: border-box;
 
 }
 
@@ -9,72 +10,56 @@ body{
     background-color: rgba(29, 28, 28, 0.644);
     width: 100vw;
     height: 100vh;
-    /* padding: 50px; */
     overflow: hidden;
     display: flex;
     color: white;
-    /* font-size: 5rem; */
     font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 .face-border{
-    background-color: white;
     width: 80vw;
     height: 80vh;
     margin: auto;
     border-radius: 50px;
     border: 10px solid rgba(255, 255, 255, 0.671);
-    /* padding: 100px; */
     background: url(../images/default.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 10px;
-    /* text-align: center; */
-    /* background-blend-mode: screen; */
-    /* background-color: gray; */
 }
 
 .clock-display{
-    /* align-content: center; */
-    /* align-self: center; */
-    /* padding: 1%; */
+    padding: 10% 1%;
     text-align: center;
-    width: 80vw;
-    height: 80vh;
-    /* background: url(../images/default.jpg) no-repeat;
-    background-position: center;
-    background-size: cover; */
-    border-radius: 50px;
+    height: 77.4vh;
+    border-radius: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* line-height: 400%; */
-    /* margin: 15% 5%; */
-    /* border: solid 1px red; */
-    /* backface-visibility: hidden; */
+    flex-flow: column;
+    justify-content: space-between;
     background-color: rgba(2, 2, 2, 0.507);
 
 }
 
-.date-display{
-    padding: 5%;
-    font-size: 3rem;
+.date-display p{
+    padding: 5% 0;
+    font-size: 2.5rem;
 }
 
 .time-display{
-    /* text-align: center; */
-    padding: 4% 0;
-    font-size: 5rem;
-    font-weight: 600;
+    padding: 5% 0;
+    
     text-shadow: 0 0 2px rgb(216, 216, 216),
     -1px -1px 0 rgba(5, 85, 190, 0.836),
     -2px -2px 1px rgba(33, 94, 145, 0.87),
     -2px -2px 2px rgb(34, 34, 34);
 }
 
+.time-display p{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
 .clock-message{
     padding: 2px;   
     font-size: 2.5rem;
-    /* color: gray; */
 }
