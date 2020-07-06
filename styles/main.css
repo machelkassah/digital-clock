@@ -42,12 +42,11 @@ body{
 
 .date-display p{
     padding: 5% 0;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .time-display{
     padding: 5% 0;
-    
     text-shadow: 0 0 2px rgb(216, 216, 216),
     -1px -1px 0 rgba(5, 85, 190, 0.836),
     -2px -2px 1px rgba(33, 94, 145, 0.87),
@@ -60,6 +59,19 @@ body{
 }
 
 .clock-message{
-    padding: 2px;   
-    font-size: 2.5rem;
+    padding: 5% 0;   
+    font-size: 1.5rem;
 }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+    .time-display p{
+        font-size: 5rem;
+    }
+
+    .clock-message{
+        padding: 0 0;   
+    }
+
+    }
