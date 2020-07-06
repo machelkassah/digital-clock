@@ -58,7 +58,7 @@ body{
     font-weight: 800;
 }
 
-.clock-message{
+.clock-message p{
     padding: 5% 0;   
     font-size: 1.5rem;
 }
